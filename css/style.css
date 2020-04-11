@@ -1,5 +1,5 @@
     /* Required height of parents of the Full Page Intro and Intro itself */
-    
+
     html,
     body,
     .view {
@@ -9,68 +9,68 @@
         font-family: 'Josefin Sans', sans-serif;
     }
     /* Navbar animation */
-    
+
     .navbar {
         background-color: rgba(202, 170, 155, 0.3);
     }
     /* Adding Section Header color */
-    
+
     #section-intro,
     .contact {
         color: rgb(202, 170, 155);
     }
     /* Adding background image to the full page */
-    
+
     #full-page-img {
         background-image: url("../img/solvaycolored.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    
+
     .top-nav-collapse {
         background-color: rgb(202, 170, 155);
     }
     /* Adding button color to buttons and Hover effects */
-    
+
     .btn-hover>button {
         color: rgb(95, 72, 61);
         /* background-color: rgb(202, 170, 155) !important; */
         border: solid 3px rgb(202, 170, 155);
     }
-    
+
     .btn-hover>button:hover {
         color: #FFF !important;
         background-color: rgb(202, 170, 155);
     }
     /* Adding modal colors */
-    
+
     .modal-dialog.modal-notify.modal-primary .badge,
     .modal-dialog.modal-notify.modal-primary .modal-header {
         background-color: rgb(202, 170, 155) !important;
         color: #FFF !important;
     }
-    
+
     .modal-dialog.modal-notify.modal-primary .fab,
     .modal-dialog.modal-notify.modal-primary .far,
     .modal-dialog.modal-notify.modal-primary .fas {
         color: rgb(202, 170, 155) !important;
     }
-    
+
     .fas {
         color: rgb(202, 170, 155)
     }
-    
+
     .modal-footer {
         background-color: rgb(202, 170, 155);
     }
-    
+
     .btn-outline-info {
         color: #FFF !important;
         border: 1px solid #FFF !important;
         ;
     }
-    
+
     .btn-outline-info.active,
     .btn-outline-info:active,
     .btn-outline-info:active:focus,
@@ -81,7 +81,7 @@
         border: solid 1px rgb(202, 170, 155) !important;
     }
     /* Adding color to the Navbar on mobile */
-    
+
     @media only screen and (max-width: 768px) {
         .navbar {
             background-color: rgb(202, 170, 155);
@@ -90,32 +90,32 @@
             display: grid;
         }
     }
-    
+
     @media (min-width: 800px) and (max-width: 850px) {
         .navbar:not(.top-nav-collapse) {
             background: rgb(202, 170, 155) !important;
         }
     }
     /* Footer color for sake of consistency with Navbar */
-    
+
     .page-footer {
         background-color: rgb(202, 170, 155);
     }
     /* Styling of the Contact Us Section */
-    
+
     #contact-section {
         color: rgb(95, 72, 61);
     }
-    
+
     #contact-button {
         background-color: rgb(202, 170, 155)!important;
         color: #FFF;
     }
-    
+
     .contact-details {
         color: rgb(202, 170, 155);
     }
-    
+
     .md-form .prefix.active,
     .md-form.md-outline input[type=password]:focus:not([readonly])+label,
     .md-form.md-outline input[type=email]:focus:not([readonly])+label,
@@ -132,7 +132,7 @@
         color: rgb(202, 170, 155);
         border-color: rgb(202, 170, 155);
     }
-    
+
     .md-form.md-outline input[type=password]:focus:not([readonly]),
     .md-form.md-outline input[type=email]:focus:not([readonly]),
     .md-form.md-outline input[type=url]:focus:not([readonly]),
@@ -147,5 +147,26 @@
     .md-form.md-outline textarea.md-textarea:focus:not([readonly]) {
         border-color: rgb(202, 170, 155) !important;
         box-shadow: inset 0 0 0 1px rgb(202, 170, 155);
-        ;
+    }
+    /* Styling Accordion color for text */
+
+    .card-header>a>h5 {
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .card-header {
+        background-color: rgb(202, 170, 155);
+    }
+    .card-body {
+        text-align: left;
+        font-weight:100;
+    } 
+
+    blockquote>em {
+        font-weight: 500;
+    }
+
+    .scientist-img {
+        text-align: center;
     }
