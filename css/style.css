@@ -63,7 +63,23 @@
 
     .modal-footer {
         background-color: rgb(202, 170, 155);
+        justify-content: space-between;
     }
+    
+    .modal-footer > h5 {
+        color: rgb(255, 255, 255);
+        text-align: left !important;
+        font-size: medium;
+    }
+
+    .modal-footer > h5 > a {
+        color: rgb(95, 72, 61);
+    }
+
+    .modal-footer > h5 > a:hover {
+        color: rgb(255, 255, 255);
+    }
+
 
     .btn-outline-info {
         color: #FFF !important;
